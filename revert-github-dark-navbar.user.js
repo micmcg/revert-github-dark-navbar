@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         GitHub dark navbar undo
+// @name         GitHub dark navbar revert
 // @version      1
 // @description  Revert the GitHub dark navbar change
 // @author       cubeee (https://github.com/cubeee)

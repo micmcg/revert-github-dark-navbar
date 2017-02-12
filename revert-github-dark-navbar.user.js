@@ -6,7 +6,7 @@
 // @match        https://github.com/*
 // @match        https://gist.github.com/*
 // @grant        none
-// @run-at       document-start
+// @run-at       document-idle
 // ==/UserScript==
 
 var headers = document.getElementsByClassName("header");

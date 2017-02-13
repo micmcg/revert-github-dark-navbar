@@ -9,8 +9,4 @@
 // @run-at       document-start
 // ==/UserScript==
 
-var headers = document.getElementsByClassName("header");
-for(var i = 0; i < headers.length; i++) {
-    var header = headers.item(i);
-    header.className = header.className.replace(/\bheader-dark\b/,'');
-}
+document.querySelector('.header-dark').classList.remove('header-dark');
